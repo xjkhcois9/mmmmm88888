@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>رفع الملفات</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>رفع الملفات</h1>
+    <nav>
+      <a href="index.html">الرئيسية</a> |
+      <a href="about.html">عن الأكاديمية</a> |
+      <a href="courses.html">الدورات</a> |
+      <a href="contact.html">تواصل معنا</a>
+    </nav>
+  </header>
+
+  <section>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+      <label>اختر ملف:</label>
+      <input type="file" name="fileToUpload" required>
+      <button type="submit">رفع</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 أكاديمية المستقبل</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
